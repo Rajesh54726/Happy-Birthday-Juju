@@ -1,5 +1,18 @@
 // Animation Timeline
 const animationTimeline = () => {
+
+  
+document.getElementById("main-webpage-button").addEventListener("click", function() { 
+   var password = prompt("Enter the password to access this content (Only accessible to Kiran 😁):"); 
+   if (password === "kiran2002") { 
+     window.location.href = "https://birthday-wish-to-someone-special.blogspot.com/"; 
+   } else { 
+     alert("Incorrect password. Please try again."); 
+   } 
+ });
+
+
+  
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
