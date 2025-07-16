@@ -3,9 +3,9 @@ const animationTimeline = () => {
 
   
 document.getElementById("main-webpage-button").addEventListener("click", function() { 
-   var password = prompt("Enter the password to access this content (Only accessible to Kiran 😁):"); 
-   if (password === "kiran2002") { 
-     window.location.href = "https://birthday-wish-to-someone-special.blogspot.com/"; 
+   var password = prompt("Enter the password to access this content (Only accessible to Shrabani 😁):"); 
+   if (password === "Shrabani2004") { 
+     window.location.href = "https://happy-birthday-shrabani.blogspot.com/"; 
    } else { 
      alert("Incorrect password. Please try again."); 
    } 
